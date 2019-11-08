@@ -1,3 +1,21 @@
+# For Justin
+
+## To add file in program
+- Go to project source folder (Daily-Fantasy-Hockey-for-DraftKings) and open it.
+- Copy csv file in folder
+- Open csv. lets say mine is DKSalaries.csv and replace header
+`Position,Name + ID,Name,ID,Roster Position,Salary,Game Info,TeamAbbrev,AvgPointsPerGame` with
+`First Name,Last Name,Salary,Position,Team,Opponent,Line,Power_Play,Projection` and save.
+- Open program file code_for_Github.jl
+- Go to line 32 and change var `path_skaters = "DKSalaries.csv"`. For example I have copied file DKSalaries.csv
+
+## To run  program
+- Open terminal
+- Use `cd` command to navigate source folder (Daily-Fantasy-Hockey-for-DraftKings)
+- Use `pwd` command to ensure path and `ls` command to see the file you copied in folder in above section
+- To run code use command `julia code_for_Github.jl`
+
+
 Fantasy Hockey IP Code
 ======================
 
